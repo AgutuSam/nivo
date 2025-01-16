@@ -47,8 +47,15 @@ const GeoMap = () => {
         }
     `)
 
+    const userData = [
+        { id: "Nairobi", value: 500, coordinates: [36.8219, -1.2921] },
+        { id: "Mombasa", value: 300, coordinates: [39.6682, -4.0435] },
+        { id: "Kisumu", value: 150, coordinates: [34.7679, -0.0917] },
+      ];
+
     return (
         <ComponentTemplate
+        data={userData}
             name="GeoMap"
             meta={meta.GeoMap}
             icon="geomap"

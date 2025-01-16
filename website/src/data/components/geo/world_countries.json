@@ -1,148 +1,28 @@
-{
+ {
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "name": "Nairobi"
-      },
+      "properties": { "name": "Nairobi" },
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [36.73121, -1.2921],
-            [36.8219, -1.2921],
-            [36.8947, -1.2632],
-            [36.8229, -1.3384],
-            [36.73121, -1.2921]
-          ]
-        ]
+        "type": "Point",
+        "coordinates": [36.8219, -1.2921]
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "Mombasa"
-      },
+      "properties": { "name": "Mombasa" },
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [39.6165, -4.0623],
-            [39.6801, -4.0435],
-            [39.7262, -4.0744],
-            [39.6593, -4.1088],
-            [39.6165, -4.0623]
-          ]
-        ]
+        "type": "Point",
+        "coordinates": [39.6682, -4.0435]
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "Kisumu"
-      },
+      "properties": { "name": "Kisumu" },
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [34.7522, -0.1282],
-            [34.7679, -0.0917],
-            [34.8155, -0.1447],
-            [34.7905, -0.1876],
-            [34.7522, -0.1282]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Nakuru"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [36.0281, -0.3030],
-            [36.0833, -0.2700],
-            [36.1222, -0.3193],
-            [36.0667, -0.3719],
-            [36.0281, -0.3030]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Eldoret"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [35.2554, 0.5071],
-            [35.2794, 0.5387],
-            [35.3017, 0.5042],
-            [35.2812, 0.4708],
-            [35.2554, 0.5071]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Garissa"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [39.6314, -0.4536],
-            [39.6862, -0.4972],
-            [39.7336, -0.4302],
-            [39.6701, -0.3817],
-            [39.6314, -0.4536]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Isiolo"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [37.5671, 0.4522],
-            [37.6364, 0.4025],
-            [37.6849, 0.4708],
-            [37.6112, 0.5093],
-            [37.5671, 0.4522]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Turkana"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [35.7964, 3.1165],
-            [35.8846, 3.1696],
-            [35.9454, 3.0969],
-            [35.8662, 3.0243],
-            [35.7964, 3.1165]
-          ]
-        ]
+        "type": "Point",
+        "coordinates": [34.7679, -0.0917]
       }
     }
   ]
