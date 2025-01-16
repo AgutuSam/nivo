@@ -82,7 +82,8 @@ const GeoMap = () => {
                             logAction({
                                 type: 'click',
                                 label: `${feature.properties.name} (${feature.id})`,
-                                data: omit(feature, 'geometry'),
+                                // data: omit(feature, 'geometry'),
+                                data: {userData},
                             })
                         }}
                     />
